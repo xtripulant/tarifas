@@ -1,2 +1,2 @@
-# tarifas
-Tarifas
+# Tarifas
+Gestión de Tarifas
