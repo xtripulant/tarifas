@@ -15,7 +15,7 @@ require_once("db.php");
 require_once ("header.php");
 ?>
 
-
+<body>
 
 <div class="container">
     <h1>Alta de tarifas</h1>

@@ -112,6 +112,9 @@ $tarifa=array();
 #$tarifa[3]="";
 $valores=$_GET['pvp'];
 $total=count($valores);
+
+require_once ("header.php");
+
 for($cont=0;$cont<$total;$cont++){
     if($_GET['pvp'][$cont]!=""){
         $min_days=$_GET['min-days'][$cont];
@@ -132,5 +135,7 @@ for($cont=0;$cont<$total;$cont++){
         }
     }
 }
+
+require_once ("footer.php");
 
 ?>
